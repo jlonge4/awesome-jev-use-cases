@@ -408,6 +408,7 @@ Repositories with a working project and a README that mentions Jev or TypeSafe. 
 - [gargpratyush/jev-router](https://github.com/gargpratyush/jev-router). Per-turn router for Claude Code and OpenAI Codex. Simple work goes to a fast tier and hard work to a strong tier. 431 stars, JavaScript, MIT.
 - [BillionsBobby/JevRouter](https://github.com/BillionsBobby/JevRouter). Router that picks among models, subagents and tools from one candidate set. Jev answers a Choice question. Code enforces permissions. 246 stars, TypeScript, MIT.
 - [Codex Jev Router](https://github.com/suenot/codex-jev-router) by @suenot. Jev answers Choice and Noul questions about a short task summary; local code chooses a Codex subagent model and reasoning effort, with a Sol fallback when the decision is uncertain.
+- [grounded-ai](https://github.com/grounded-ai/grounded_ai) by @jlonge4. Python evaluation library whose `CascadeEvaluator` asks Jev Noul, Choice and Score questions first and sends only answers below a confidence threshold to an LLM judge of your choice. On 200 agent turns from GeneralFunctionCall-Test, labelled by Kimi K2-thinking's choices, the author measured a 0.7 threshold sending 37% of questions to Claude Sonnet 4.6, with 1.28 s vs 2.59 s per check, $2,997 vs $7,751 per million checks, and accuracy 0.695 vs 0.675 against Sonnet alone ([benchmark](https://github.com/grounded-ai/grounded_ai/tree/main/benchmarks/tool_call)). Python, MIT.
 
 ### Data and search
 
